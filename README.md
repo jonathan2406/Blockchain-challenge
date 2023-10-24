@@ -17,7 +17,7 @@ Teniendo en cuenta lo explicado en clase sobre Blockchain.
     una función para encriptar y desencriptar cadenas.
 
 3. Crear la clase CadenaBlockchain:
-- Implementa una clase 'CadenaBlockchain' que tendrá un puntero al primer puntero ('bloque_genesis') como atributo.
+- Implementa una clase 'CadenaBlockchain' que tendrá un puntero al primer bloque ('bloque_genesis') como atributo.
 - *Explicación:* La cadena de bloques se gestiona como una lista enlazada, donde el primer bloque sirve como punto de partida.
 
 4. Métodos para agregar bloques:
