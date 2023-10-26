@@ -11,6 +11,7 @@ Teniendo en cuenta lo explicado en clase sobre Blockchain.
 - Tiempo: Valor de tiempo en el que se creo el bloque.
 - HashAnterior: Cadena que representa el hash anterior, del bloque, es decir un puntero.
 - Hash: Una cadena que representa el hash del bloque actual
+- Siguiente: Un atributo que almacena una referencia al siguiente bloque en la cadena.
 
 2. Implementar la generación de Hash:
 - En la clase bloque implementar el método 'calcular_hash()' la cual utiliza
@@ -28,6 +29,10 @@ Teniendo en cuenta lo explicado en clase sobre Blockchain.
 - Implementa el método 'mostrar_cadena()' en la clase 'CadenaBlockchain' que imprima todos los bloques de la cadena.
   Este método recorrer la cadena e imprimir los datos de cada bloque.
 
-6. Que funcione el código.
+6. Método para Verificar la Integridad de la Cadena:
+
+- Implementa el método 'verificar_integridad()' en la clase 'CadenaBlockchain' que verifique si la cadena de bloques es válida y no ha sido alterada. Este método deberá recorrer la cadena y verificar que el hash calculado de cada bloque coincida con el hash_anterior del siguiente bloque.
+
+7. Que funcione el código.
 
 
